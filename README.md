@@ -53,6 +53,6 @@ This can be done using the following scripts for the ACS and ADULT dataset:
 
 We adapt code from
 
-1) https://github.com/terranceliu/pwm-pub
-2) https://github.com/sdv-dev/CTGAN
-3) https://github.com/ryan112358/private-pgm
+1) https://github.com/sdv-dev/CTGAN
+2) https://github.com/ryan112358/private-pgm
+3) https://github.com/terranceliu/pmw-pub
