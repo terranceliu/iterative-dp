@@ -70,6 +70,8 @@ class RAP(torch.nn.Module):
         self.past_neg_query_mask = torch.tensor([])
         self.past_measurements = torch.tensor([])
 
+        self.true_max_error = []
+
     def setup_domain(self, domain):
         self.domain = domain
 

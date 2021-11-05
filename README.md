@@ -1,5 +1,10 @@
 # Setup
 
+Requires Python3. To install the necesssary packages, please run:
+````
+pip install -r requirements.txt
+````
+
 To run DualQuery, please install gurobipy for Anaconda
 * Windows: https://www.gurobi.com/gurobi-and-anaconda-for-windows/
 * MacOS: https://www.gurobi.com/gurobi-and-anaconda-for-mac/

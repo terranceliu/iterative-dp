@@ -16,7 +16,7 @@ LR=1e-4
 
 for RUN in $(seq $NUM_RUNS)
 do
-  for EPSILON in 0.1 0.15 0.2 0.25
+  for EPSILON in 0.1 0.15 0.2 0.25 0.5 1.0
   do
     for T in 30 40 50 60 70 80 90 100 125 150 175 200
     do
@@ -27,7 +27,7 @@ do
       --alpha $ALPHA --syndata_size $SYNDATA_SIZE \
        --adult_seed $ADULT_SEED
 
-#      rm -rf save/gem/${DATASET}_${ADULT_SEED}/${MARGINAL}_${WORKLOAD}_${WORKLOAD_SEED}/${EPSILON}_${T}_${ALPHA}_${SYNDATA_SIZE}
+      rm -rf save/gem/${DATASET}_${ADULT_SEED}/${MARGINAL}_${WORKLOAD}_${WORKLOAD_SEED}/${EPSILON}_${T}_${ALPHA}_${SYNDATA_SIZE}
     done
   done
 done
