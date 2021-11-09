@@ -1,3 +1,5 @@
+This code contains code for reproducing empirical results found in https://arxiv.org/abs/2106.07153. We have released a more user-friendly version of this code for running algorithms GEM [here](https://github.com/terranceliu/dp-query-release).
+
 # Setup
 
 Requires Python3. To install the necesssary packages, please run:
